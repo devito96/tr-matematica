@@ -1,0 +1,52 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Righteous', sans-serif;
+    background-color: #DFEBEA;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.conteudo {
+    padding-right: 350px;
+}
+
+.titulo {
+    font-size: 7rem;
+    margin-bottom: 15px;
+}
+
+.subtitulo {
+    font-size: 5rem;
+    margin-bottom: 100px;
+}
+
+.menu {
+    display: flex;
+    width: 550px;
+    font-size: 3.5rem;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.menu ul li a{
+    transition: 0.4s ease;
+    display: block;
+}
+
+.menu ul li a:hover {
+    transform: scale(1.1);
+    color: #008b8b;
+}
